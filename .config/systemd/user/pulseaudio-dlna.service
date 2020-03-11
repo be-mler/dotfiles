@@ -1,0 +1,19 @@
+## Systemd user unit file for pulseaudio-dlna
+# Copy to: ~/.config/systemd/user/pulseaudio-dlna.service
+# Enable: systemctl --user enable pulseaudio-dlna
+
+[Unit]
+Description=PulseAudio-DLNA Service
+
+[Install]
+WantedBy=default.target
+
+[Service]
+Type=simple
+PrivateTmp=true
+ExecStart=/usr/bin/pulseaudio-dlna  --disable-device-stop
+
+
+## References
+# https://github.com/masmu/pulseaudio-dlna
+# https://wiki.archlinux.org/index.php/Systemd/User

@@ -1,0 +1,10 @@
+[
+  {
+    "command": [
+      "/usr/bin/konsole",
+      "-e",
+      "ranger"
+    ],
+    "working_directory": "/home/max"
+  }
+]

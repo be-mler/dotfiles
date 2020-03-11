@@ -1,0 +1,14 @@
+[
+  {
+    "command": [
+      "/usr/lib/thunderbird/thunderbird"
+    ],
+    "working_directory": "/home/max"
+  },
+  {
+    "command": [
+      "/usr/bin/telegram-desktop-bin"
+    ],
+    "working_directory": "/home/max/.local/share/TelegramDesktop"
+  }
+]

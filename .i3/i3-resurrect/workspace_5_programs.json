@@ -1,0 +1,22 @@
+[
+  {
+    "command": [
+      "/usr/bin/konsole"
+    ],
+    "working_directory": "/home/max"
+  },
+  {
+    "command": [
+      "/usr/bin/konsole"
+    ],
+    "working_directory": "/home/max"
+  },
+  {
+    "command": [
+      "/usr/bin/konsole",
+      "-e",
+      "vim"
+    ],
+    "working_directory": "/home/max"
+  }
+]
