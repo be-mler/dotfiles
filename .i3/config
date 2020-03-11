@@ -181,6 +181,17 @@ bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
+# Restore session (windows and layout) with workspaces by number
+bindsym $mod+Ctrl+F1 exec i3-resurrect restore -n -w 1
+bindsym $mod+Ctrl+F2 exec i3-resurrect restore -n -w 2
+bindsym $mod+Ctrl+F3 exec i3-resurrect restore -n -w 3
+bindsym $mod+Ctrl+F4 exec i3-resurrect restore -n -w 4
+bindsym $mod+Ctrl+F5 exec i3-resurrect restore -n -w 5
+bindsym $mod+Ctrl+F6 exec i3-resurrect restore -n -w 6
+bindsym $mod+Ctrl+F7 exec i3-resurrect restore -n -w 7
+bindsym $mod+Ctrl+F8 exec i3-resurrect restore -n -w 8
+
+
 # Open applications on specific workspaces
 assign [class="Thunderbird"] $ws1
 assign [class="TelegramDesktop"] $ws1
@@ -284,16 +295,6 @@ workspace $ws5 output primary
 workspace $ws6 output primary
 workspace $ws7 output HDMI1
 workspace $ws8 output primary
-
-# Restore session (windows and layout) workspaces by number
-exec i3-resurrect restore -n -w 1
-exec i3-resurrect restore -n -w 2
-exec i3-resurrect restore -n -w 3
-exec i3-resurrect restore -n -w 4
-exec i3-resurrect restore -n -w 5
-exec i3-resurrect restore -n -w 6
-exec i3-resurrect restore -n -w 7
-exec i3-resurrect restore -n -w 8
 
 
 # Color palette used for the terminal ( ~/.extend.Xresources file )

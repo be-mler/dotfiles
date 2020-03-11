@@ -1,15 +1,15 @@
 [Desktop Entry]
-DefaultProfile=My Default.profile
+DefaultProfile=manjaro_i3.profile
 
 [Favorite Profiles]
-Favorites=
+Favorites=manjaro_i3.profile
 
 [KonsoleWindow]
 ShowMenuBarByDefault=false
 
 [MainWindow]
-Height 1080=1029
+Height 1080=507
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAA6sAAAPpAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAQfAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 1920=99
+Width 1920=1894
