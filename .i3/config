@@ -53,20 +53,23 @@ exec --no-startup-id pa-applet
 # bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
 # bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
+
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+i exec calamares_polkit
-bindsym $mod+Ctrl+a exec terminal -e 'setup'
-bindsym $mod+F2 exec firefox
-bindsym $mod+F3 exec terminal -e 'ranger'
-bindsym $mod+F5 exec terminal -e 'cmus'
+bindsym $mod+F1 exec thunderbird
+bindsym $mod+F2 exec terminal -e 'cmus'
+bindsym $mod+F3 exec firefox
+bindsym $mod+F4 exec terminal -e 'ranger'
+bindsym $mod+F5 exec terminal -e 'vim'
 bindsym $mod+Shift+F3 exec pcmanfm
-bindsym $mod+t exec --no-startup-id pkill picom
-bindsym $mod+Ctrl+t exec --no-startup-id picom -b
-bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
+# Screenshot
 bindsym Print exec --no-startup-id i3-scrot
 bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
+# Others
+bindsym $mod+t exec --no-startup-id pkill picom
+bindsym $mod+Ctrl+t exec --no-startup-id picom -b
+bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
 bindsym $mod+Shift+F1 exec xdg-open /usr/share/doc/manjaro/i3_help_live.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
 
@@ -233,8 +236,7 @@ bindsym $mod+Ctrl+r mode "restore"
 # Open applications on specific workspaces
 assign [class="Thunderbird"] $ws1
 assign [class="TelegramDesktop"] $ws1
-# assign [class="Pcmanfm"] $ws3
-# assign [class="Skype"] $ws5
+assign [class="Skype"] $ws1
 
 
 # Open specific applications in floating mode
@@ -305,14 +307,13 @@ bindsym $mod+9 exec --no-startup-id blurlock
 # Autostart applications
 exec --no-startup-id nitrogen --restore; sleep 1; picom -b
 exec --no-startup-id start_conky_live_maia
-# exec --no-startup-id blueman
+exec --no-startup-id blueman-applet
 exec --no-startup-id clipit
 exec --no-startup-id desktop-items
-#exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id pamac-tray
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-# exec_always --no-startup-id sbxkb
+exec --no-startup-id /usr/bin/indicator-kdeconnect
 exec --no-startup-id xfce4-power-manager
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id setcursor
