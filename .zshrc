@@ -81,7 +81,7 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git
+plugins=(
          zsh-syntax-highlighting
         )
 
@@ -91,12 +91,26 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 ####################################################################################
 
-#EXPORTS
+# Enable Vi mode
+bindkey -v
+
+# Set waiting time between mode Vi mode switching to 0.1 seconds
+export KEYTIMEOUT=1
+
+# Enable backwards search
+bindkey '^R' history-incremental-pattern-search-backward
+
+# Enable smart history search
+bindkey '^N' history-beginning-search-backward
+bindkey '^P' history-beginning-search-forward
+
+
+# EXPORTS
 # Make less scrollable and enable case insensitive search
 # export LESS="-R -i --mouse --wheel-lines=3"
 
-#ALIASES
-alias la="ls -la"
+# ALIASES
+#alias la="ls -la"
 
 ####################################################################################
 # Powerlevel10k configuration
