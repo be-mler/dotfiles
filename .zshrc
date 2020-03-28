@@ -117,7 +117,8 @@ export KEYTIMEOUT=1
 
 # ALIASES
 
-#alias la="ls -la"
+# Use LSDelux instead of ls
+alias ls="lsd"
 
 ####################################################################################
 # Powerlevel10k configuration
