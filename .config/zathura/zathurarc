@@ -1,0 +1,8 @@
+set default-fg "#c8c8c8"
+set default-bg "#222d31"
+
+set inputbar-fg "#c8c8c8"
+set inputbar-bg "#222d31"
+
+set statusbar-fg "#c8c8c8"
+set statusbar-bg "#222d31"
