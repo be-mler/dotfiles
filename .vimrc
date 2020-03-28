@@ -14,6 +14,11 @@ set wrap
 " Show line numbers
 set number
 
+" Highlight the cursor line
+set cursorline
+highlight CursorLine  gui=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+highlight CursorLineNR  gui=NONE cterm=NONE ctermbg=darkgrey ctermfg=NONE
+
 " Default tab size 4 spaces
 set tabstop=4
 set shiftwidth=4
