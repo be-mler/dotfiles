@@ -91,25 +91,32 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 ####################################################################################
 
+# KEYBINDINGS
+
 # Enable Vi mode
 bindkey -v
+
+# Enable backwards search with Ctrl+R
+bindkey '^R' history-incremental-pattern-search-backward
+
+# Enable smart history search with Ctrl+N, Ctrl+P
+bindkey '^N' history-beginning-search-backward
+bindkey '^P' history-beginning-search-forward
+
+# ranger-cd with Ctrl+O
+bindkey -s '^O' '. ranger\n'
+
+# EXPORTS
 
 # Set waiting time between mode Vi mode switching to 0.1 seconds
 export KEYTIMEOUT=1
 
-# Enable backwards search
-bindkey '^R' history-incremental-pattern-search-backward
-
-# Enable smart history search
-bindkey '^N' history-beginning-search-backward
-bindkey '^P' history-beginning-search-forward
-
-
-# EXPORTS
 # Make less scrollable and enable case insensitive search
 # export LESS="-R -i --mouse --wheel-lines=3"
 
+
 # ALIASES
+
 #alias la="ls -la"
 
 ####################################################################################
