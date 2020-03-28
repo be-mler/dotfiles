@@ -1,0 +1,222 @@
+{
+  "configure-viewer-toolbar-geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAoFAAAA2QAADHIAAAL3AAAKBwAAANkAAAxwAAAC9QAAAAAAAAAAB4AAAAoHAAAA2QAADHAAAAL1"
+  },
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAABLHAAAADAAAFnMAAAQSAAASyAAAAA0AABZyAAAEEQAAAAIAAAAAB4AAABLIAAAADQAAFnIAAAQR"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAAEBfwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAACGAAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAAAAAQFAAAAmgD///8AAAABAAAA4AAABB/8AgAAAAP7AAAAHABiAG8AbwBrAG0AYQByAGsAcwAtAGQAbwBjAGsAAAAAAAAABB8AAADSAP////sAAAAWAGwAbwBvAGsAdQBwAC0AZABvAGMAawAAAAAAAAAEHwAAAGYA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAAAAAQfAAAAFAD///8AAAN3AAAEBQAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAAAAAABAAAAHgBhAGMAdABpAG8AbgBzAF8AdABvAG8AbABiAGEAcgMAAAAA/////wAAAAAAAAAA"
+  },
+  "old_prefs_migrated": true,
+  "saved-search-settings": {
+    "enger Liegestütz": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "rumänisches": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "rückenh": {
+      "case_sensitive": false,
+      "mode": "normal"
+    },
+    "umgekehrtes": {
+      "case_sensitive": false,
+      "mode": "normal"
+    }
+  },
+  "session_data": {
+    "base_font_size": 16,
+    "controls_help_shown_count": 2,
+    "current_color_scheme": "*manjaro_i3",
+    "footer": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "progress"
+    },
+    "header": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "hide_tooltips": null,
+    "keyboard_shortcuts": {
+      "down": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "ArrowDown",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "j",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "left": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "ArrowLeft",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "h",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "pagedown": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": " ",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "PageDown",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "J",
+          "metaKey": false,
+          "shiftKey": true
+        }
+      ],
+      "pageup": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "PageUp",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": " ",
+          "metaKey": false,
+          "shiftKey": true
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "K",
+          "metaKey": false,
+          "shiftKey": true
+        }
+      ],
+      "right": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "ArrowRight",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "l",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ],
+      "up": [
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "ArrowUp",
+          "metaKey": false,
+          "shiftKey": false
+        },
+        {
+          "altKey": false,
+          "ctrlKey": false,
+          "key": "k",
+          "metaKey": false,
+          "shiftKey": false
+        }
+      ]
+    },
+    "left-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "lines_per_sec_smooth": 60,
+    "read_mode": "flow",
+    "right-margin": {
+      "left": "empty",
+      "middle": "empty",
+      "right": "empty"
+    },
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "show_actions_toolbar": true
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Clark, Joshua;Lauren, Mark"
+        ],
+        "key": "/home/max/documents/fit_ohne_geraete/Fit ohne Gerate_ Trainieren mit dem eigenen Korpergewicht - Clark, Joshua & Lauren, Mark.mobi",
+        "pathtoebook": "/home/max/documents/fit_ohne_geraete/Fit ohne Gerate_ Trainieren mit dem eigenen Korpergewicht - Clark, Joshua & Lauren, Mark.mobi",
+        "timestamp": "2020-03-28T13:31:21.991Z",
+        "title": "Fit ohne Geräte: Trainieren mit dem eigenen Körpergewicht"
+      },
+      {
+        "authors": [
+          "Clark, Joshua",
+          "Lauren, Mark"
+        ],
+        "key": "/home/max/documents/fit_ohne_geraete/Fit ohne Geräte_ Trainieren mit dem eigenen Körpergewicht - Clark, Joshua.epub",
+        "pathtoebook": "/home/max/documents/fit_ohne_geraete/Fit ohne Geräte_ Trainieren mit dem eigenen Körpergewicht - Clark, Joshua.epub",
+        "timestamp": "2020-03-28T13:31:08.757Z",
+        "title": "Fit ohne Geräte: Trainieren mit dem eigenen Körpergewicht"
+      },
+      {
+        "authors": [
+          "Clark, Joshua",
+          "Lauren, Mark"
+        ],
+        "key": "/home/max/Calibre Library/Clark, Joshua/Fit ohne Gerate_ Trainieren mit dem eigenen Korpergewicht (2)/Fit ohne Gerate_ Trainieren mit dem eigene - Clark, Joshua.epub",
+        "pathtoebook": "/home/max/Calibre Library/Clark, Joshua/Fit ohne Gerate_ Trainieren mit dem eigenen Korpergewicht (2)/Fit ohne Gerate_ Trainieren mit dem eigene - Clark, Joshua.epub",
+        "timestamp": "2020-03-24T00:49:13.759Z",
+        "title": "Fit ohne Geräte: Trainieren mit dem eigenen Körpergewicht"
+      }
+    ],
+    "user_color_schemes": {
+      "*manjaro_i3": {
+        "background": "#222d31",
+        "foreground": "#c8c8c8",
+        "link": "#1d99f3",
+        "margin_bottom": "#222d31:#c8c8c8",
+        "margin_left": "#222d31:#c8c8c8",
+        "margin_right": "#222d31:#c8c8c8",
+        "margin_top": "#222d31:#c8c8c8",
+        "name": "manjaro_i3"
+      }
+    }
+  },
+  "viewer-search-case-sensitive": false,
+  "viewer-search-mode": "normal"
+}
