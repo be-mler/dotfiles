@@ -11,25 +11,6 @@
     "__class__": "bytearray",
     "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEAAAAEBfwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAAAAACGAAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAAAAAQFAAAAmgD///8AAAABAAAA4AAABB/8AgAAAAP7AAAAHABiAG8AbwBrAG0AYQByAGsAcwAtAGQAbwBjAGsAAAAAAAAABB8AAADSAP////sAAAAWAGwAbwBvAGsAdQBwAC0AZABvAGMAawAAAAAAAAAEHwAAAGYA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAAAAAQfAAAAFAD///8AAAN3AAAEBQAAAAQAAAAEAAAACAAAAAj8AAAAAQAAAAAAAAABAAAAHgBhAGMAdABpAG8AbgBzAF8AdABvAG8AbABiAGEAcgMAAAAA/////wAAAAAAAAAA"
   },
-  "old_prefs_migrated": true,
-  "saved-search-settings": {
-    "enger Liegestütz": {
-      "case_sensitive": false,
-      "mode": "normal"
-    },
-    "rumänisches": {
-      "case_sensitive": false,
-      "mode": "normal"
-    },
-    "rückenh": {
-      "case_sensitive": false,
-      "mode": "normal"
-    },
-    "umgekehrtes": {
-      "case_sensitive": false,
-      "mode": "normal"
-    }
-  },
   "session_data": {
     "base_font_size": 16,
     "controls_help_shown_count": 2,
@@ -173,37 +154,6 @@
     "standalone_misc_settings": {
       "show_actions_toolbar": true
     },
-    "standalone_recently_opened": [
-      {
-        "authors": [
-          "Clark, Joshua;Lauren, Mark"
-        ],
-        "key": "/home/max/documents/fit_ohne_geraete/Fit ohne Gerate_ Trainieren mit dem eigenen Korpergewicht - Clark, Joshua & Lauren, Mark.mobi",
-        "pathtoebook": "/home/max/documents/fit_ohne_geraete/Fit ohne Gerate_ Trainieren mit dem eigenen Korpergewicht - Clark, Joshua & Lauren, Mark.mobi",
-        "timestamp": "2020-03-28T13:31:21.991Z",
-        "title": "Fit ohne Geräte: Trainieren mit dem eigenen Körpergewicht"
-      },
-      {
-        "authors": [
-          "Clark, Joshua",
-          "Lauren, Mark"
-        ],
-        "key": "/home/max/documents/fit_ohne_geraete/Fit ohne Geräte_ Trainieren mit dem eigenen Körpergewicht - Clark, Joshua.epub",
-        "pathtoebook": "/home/max/documents/fit_ohne_geraete/Fit ohne Geräte_ Trainieren mit dem eigenen Körpergewicht - Clark, Joshua.epub",
-        "timestamp": "2020-03-28T13:31:08.757Z",
-        "title": "Fit ohne Geräte: Trainieren mit dem eigenen Körpergewicht"
-      },
-      {
-        "authors": [
-          "Clark, Joshua",
-          "Lauren, Mark"
-        ],
-        "key": "/home/max/Calibre Library/Clark, Joshua/Fit ohne Gerate_ Trainieren mit dem eigenen Korpergewicht (2)/Fit ohne Gerate_ Trainieren mit dem eigene - Clark, Joshua.epub",
-        "pathtoebook": "/home/max/Calibre Library/Clark, Joshua/Fit ohne Gerate_ Trainieren mit dem eigenen Korpergewicht (2)/Fit ohne Gerate_ Trainieren mit dem eigene - Clark, Joshua.epub",
-        "timestamp": "2020-03-24T00:49:13.759Z",
-        "title": "Fit ohne Geräte: Trainieren mit dem eigenen Körpergewicht"
-      }
-    ],
     "user_color_schemes": {
       "*manjaro_i3": {
         "background": "#222d31",
