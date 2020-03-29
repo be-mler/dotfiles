@@ -7,7 +7,7 @@
   },
   {
     "command": [
-      "/usr/bin/telegram-desktop-bin"
+      "/usr/bin/telegram-desktop"
     ],
     "working_directory": "/home/max/.local/share/TelegramDesktop"
   }

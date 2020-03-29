@@ -2,7 +2,7 @@
   "border": "pixel",
   "current_border_width": -1,
   "floating": "auto_off",
-  "fullscreen_mode": 0,
+  "fullscreen_mode": 1,
   "geometry": {
     "x": 0,
     "y": 0,
@@ -50,13 +50,13 @@
       "floating": "auto_off",
       "fullscreen_mode": 0,
       "geometry": {
-        "x": 968,
+        "x": 1288,
         "y": 13,
-        "width": 939,
+        "width": 619,
         "height": 1029
       },
       "layout": "splith",
-      "name": "Telegram (1)",
+      "name": "Telegram",
       "orientation": "none",
       "percent": 0.5,
       "scratchpad_state": "none",
@@ -66,7 +66,7 @@
       "swallows": [
         {
           "class": "^TelegramDesktop$",
-          "instance": "^telegram\\-desktop\\-bin$"
+          "instance": "^telegram\\-desktop$"
         }
       ]
     }

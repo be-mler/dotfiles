@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "command": [
+      "/usr/bin/python3.8",
+      "/usr/bin/ebook-viewer"
+    ],
+    "working_directory": "/home/max"
+  }
+]
