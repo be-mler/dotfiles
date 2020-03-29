@@ -7,3 +7,6 @@ export BROWSER=/usr/bin/firefox
 
 # SSH AGENT SOCKET
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
+# Let calibre ebook reader use system theme
+CALIBRE_USE_SYSTEM_THEME=true
