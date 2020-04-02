@@ -33,8 +33,17 @@ set clipboard=unnamedplus
 " Enable search highliting
 set hlsearch
 
+" Enable incremental searc
+set incsearch
+
+" Make search case insensitive
+set ignorecase
+
 " Press F3 to toggle highlighting on/off, and show current value.
 :noremap <F3> :set hlsearch! hlsearch?<CR>
+
+" Save with sudo by with command ':W'
+command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
 
 " Disable arrow keys
 nnoremap <up>    <nop>
