@@ -84,6 +84,9 @@ Plug 'tpope/vim-fugitive'
 " ALE - Asynchronous Lint Engine
 Plug 'dense-analysis/ale'
 
+" Vimtex
+Plug 'lervag/vimtex'
+
 " Coc.nvim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -206,6 +209,17 @@ let g:ale_echo_msg_format = '[%severity%][%linter%]:  %s'
 " Enable moving through errors by Ctrl+k, Ctrl+j
 nmap <silent> <C-k> <Plug>(ale_previous_wrap)
 nmap <silent> <C-j> <Plug>(ale_next_wrap)
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Vimtex
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" use zathura as preview
+let g:vimtex_view_method = 'zathura'
+
+" hide labels in Toc view and enlarge size to 40 characters
+let g:vimtex_toc_config = {'layers' : ['content', 'todo', 'include']}
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

@@ -1,3 +1,4 @@
+# Set Colors to match manjaro_i3
 set default-fg "#c8c8c8"
 set default-bg "#222d31"
 
@@ -6,3 +7,10 @@ set inputbar-bg "#222d31"
 
 set statusbar-fg "#c8c8c8"
 set statusbar-bg "#222d31"
+
+set highlight-color "#1abc9c"
+set highlight-transparency 0.2
+
+# Enable inverse search
+set synctex true
+set synctex-editor-command "vim --servername vim --remote +%{line} %{input}"

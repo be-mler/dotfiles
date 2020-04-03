@@ -118,7 +118,8 @@ export KEYTIMEOUT=1
 # ALIASES
 
 # Use LSDelux instead of ls
-alias ls="lsd"
+alias ls='lsd'
+alias vim='vim --servername vim'
 
 ####################################################################################
 # Powerlevel10k configuration

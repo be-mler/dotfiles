@@ -1,4 +1,7 @@
 {
+  //diagnostic settings
   "diagnostic.enable": false,
-  "diagnostic.displayByAle": false
-}
+  "diagnostic.displayByAle": false,
+  //coc-texlab configuration
+  "latex.lint.onSave": false
+  }
