@@ -7,5 +7,5 @@ let b:ale_linter_aliases = ['tex', 'text']
 " Set fixers
 let b:ale_fixers = ['latexindent']
 
-" Make Latexindent use 4 spaces instead of a tab
+" Make Latexindent use 2 spaces instead of a tab
 let g:ale_tex_latexindent_options = '-y="defaultIndent: ''  ''"'

@@ -16,7 +16,7 @@ set number
 
 " Highlight the cursor line
 set cursorline
-highlight CursorLine  gui=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
+highlight CursorLine    gui=NONE cterm=NONE ctermbg=NONE ctermfg=NONE
 highlight CursorLineNR  gui=NONE cterm=NONE ctermbg=darkgrey ctermfg=NONE
 
 " Default tab size 4 spaces
@@ -24,8 +24,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-" Enable mouse scrolling
-set mouse=a
+" Disable mouse support
+set mouse=
 
 " Use system clipboard for copy paste
 set clipboard=unnamedplus
@@ -151,6 +151,9 @@ endfunction
 " Lightline Bufferline
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Always show bufferline
+set showtabline=2
+
 " Show line numbers
 let g:lightline#bufferline#show_number = 1
 
@@ -187,6 +190,9 @@ let g:lightline#ale#indicator_ok = "\uf00c "
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \}
+" Only enable linting on save
+let g:ale_lint_on_text_changed = 'never'
+let g:ale_lint_on_insert_leave = 0
 
 " Fix files upon saving
 let g:ale_fix_on_save = 1
@@ -214,6 +220,9 @@ nmap <silent> <C-j> <Plug>(ale_next_wrap)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Vimtex
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" All tex files should have the filetype latex
+let g:tex_flavor = 'latex'
 
 " use zathura as preview
 let g:vimtex_view_method = 'zathura'
