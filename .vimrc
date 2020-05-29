@@ -8,6 +8,9 @@ set encoding=UTF-8
 " Enable syntax highliting
 syntax on
 
+" Enable spellchecking
+set spell
+
 " Enable auto line wrap
 set wrap
 
@@ -92,6 +95,13 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Devicons
 Plug 'ryanoasis/vim-devicons'
+
+" Auto Pairs
+Plug 'jiangmiao/auto-pairs'
+
+" Vim Surround
+Plug 'tpope/vim-surround'
+
 
 " Initialize plugin system
 call plug#end()
