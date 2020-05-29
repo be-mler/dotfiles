@@ -14,3 +14,6 @@ set highlight-transparency 0.2
 # Enable inverse search
 set synctex true
 set synctex-editor-command "vim --servername vim --remote +%{line} %{input}"
+
+# Copy to clipboard
+set selection-clipboard clipboard
